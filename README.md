@@ -8,7 +8,11 @@ My goal is to generate a graph of the websites I go to the most similar to the [
 
 First I coppied the sqlite database from [the data directory](https://docs.activitywatch.net/en/latest/directories.html#data-directory) and played with it within [QueryCrafting.ipynb](./QueryCrafting.ipynb) and [GraphingUp.ipynb](GraphingUp.ipynb). Inside [QueryCrafting.ipynb](./QueryCrafting.ipynb) I wrote and troubleshooted a query get all the domain names and group them distinctly. I then used the query from [QueryCrafting.ipynb](./QueryCrafting.ipynb) inside [GraphingUp.ipynb](GraphingUp.ipynb) to generate a graph using [plotly](https://plotly.com/python/bar-charts/).
 
-While troubleshooting ['Top Browser Domains' feature](https://github.com/ActivityWatch/aw-webui/commit/8f443bc1e258c54f1838994e0f1f79e254d86d6a) I realized [ActivityWatch](https://github.com/ActivityWatch/activitywatch) has an [API](https://docs.activitywatch.net/en/stable/api.html) I can just strait up query rather than pulling from the sqlite file. Turns out you can load the events strait into a pandas dataframe and play with it from there which I thought was pretty awesome.
+While troubleshooting ['Top Browser Domains' feature](https://github.com/ActivityWatch/aw-webui/commit/8f443bc1e258c54f1838994e0f1f79e254d86d6a) I realized [ActivityWatch](https://github.com/ActivityWatch/activitywatch) has an [API](https://docs.activitywatch.net/en/stable/api.html) I can just strait up query rather than pulling from the sqlite file. So that's what I did in [UsingAW-API.ipynb](./UsingAW-API.ipynb) Turns out you can load the events strait into a pandas dataframe and play with it from there which I thought was pretty awesome.
+
+Turns out github will not render my graph in the jupyter notebook so here it is belowso here it is below
+
+![first plot](./static/plot001.png)
 
 ## Setup
 
