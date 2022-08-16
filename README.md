@@ -25,3 +25,10 @@ pip install pandas
 source env/bin/activate
 jupyter lab .
 ```
+
+## Next Steps
+
+* Aggregate durration for websites browsed
+* Find most visted URLs
+  * Narrow by specific website
+* Learn [Querying Data](https://docs.activitywatch.net/en/latest/examples/querying-data.html)
