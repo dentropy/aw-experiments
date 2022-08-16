@@ -1,4 +1,4 @@
-## Description
+## [ActivityWatch](https://github.com/ActivityWatch/activitywatch) meets jupyter-notebooks
 
 The purpose of this repo is to showcase the various ways I querried my [ActivityWatch](https://github.com/ActivityWatch/activitywatch).
 
