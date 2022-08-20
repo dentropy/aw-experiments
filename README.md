@@ -48,7 +48,6 @@ jupyter lab .
 
 ## Next Steps
 
-* Aggregate duration for websites browsed
 * Find most visited URLs
   * Narrow by specific website
 * Learn [Querying Data](https://docs.activitywatch.net/en/latest/examples/querying-data.html)
