@@ -8,12 +8,19 @@ My goal is to generate a graph of the websites I go to the most similar to the [
 ## Queries:
 
 * Domain Name Queries
-  * Extract all domain names and sort by most visited
+  * Extract all domain names and sort by most visited and then put on a bar graph
   * Find number of unique domain names
   * Find total number of websites visited
+  * Find most visited URLs
+    * Option to specify by site
 * Time Based Queries
-  * Number of events per hour visualized as a heatmap
   * Average number of events on weekdays verses weekend
+  * Total Duration per
+    * Total
+    * Bucket
+    * Website Domain Name
+    * App
+  * Number of events per hour visualized as a heatmap by month
 
 ## Explanation of files
 
