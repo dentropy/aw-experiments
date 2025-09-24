@@ -1,3 +1,6 @@
 env
 .ipynb_checkpoints
 merge_exports.db
+*.db
+*.db-shm
+*.db-wal
